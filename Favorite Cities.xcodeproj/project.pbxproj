@@ -14,6 +14,7 @@
 		A0E75C7923C8DC44003DE2C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E75C7723C8DC44003DE2C7 /* Main.storyboard */; };
 		A0E75C7B23C8DC49003DE2C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E75C7A23C8DC49003DE2C7 /* Assets.xcassets */; };
 		A0E75C7E23C8DC49003DE2C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E75C7C23C8DC49003DE2C7 /* LaunchScreen.storyboard */; };
+		A0E75C8623C8DF41003DE2C7 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E75C8523C8DF40003DE2C7 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A0E75C7A23C8DC49003DE2C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0E75C7D23C8DC49003DE2C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0E75C7F23C8DC49003DE2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E75C8523C8DF40003DE2C7 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				A0E75C6F23C8DC44003DE2C7 /* AppDelegate.swift */,
 				A0E75C7123C8DC44003DE2C7 /* SceneDelegate.swift */,
+				A0E75C8523C8DF40003DE2C7 /* City.swift */,
 				A0E75C7323C8DC44003DE2C7 /* MasterViewController.swift */,
 				A0E75C7523C8DC44003DE2C7 /* DetailViewController.swift */,
 				A0E75C7723C8DC44003DE2C7 /* Main.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E75C7023C8DC44003DE2C7 /* AppDelegate.swift in Sources */,
+				A0E75C8623C8DF41003DE2C7 /* City.swift in Sources */,
 				A0E75C7223C8DC44003DE2C7 /* SceneDelegate.swift in Sources */,
 				A0E75C7423C8DC44003DE2C7 /* MasterViewController.swift in Sources */,
 				A0E75C7623C8DC44003DE2C7 /* DetailViewController.swift in Sources */,
